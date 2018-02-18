@@ -5,6 +5,7 @@ $(document).ready(function() {
 	$(".loader").hide();
 	
 	$("#submitBtn").on("click", processInput);
+	$("#search_box").on("click", function(){ $("#infoUser").empty(); } );
 	
 	function getFBPage($facebookId){
 		$("#search_bar").hide();			
